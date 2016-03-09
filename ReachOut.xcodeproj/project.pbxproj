@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2A92321C31008C005665CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A92311C31008C005665CA /* SWRevealViewController.m */; };
+		AD32401F1C1FC42C005FBE3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32401E1C1FC42C005FBE3E /* AppDelegate.swift */; };
+		AD3240211C1FC42C005FBE3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3240201C1FC42C005FBE3E /* LoginViewController.swift */; };
+		AD3240241C1FC42C005FBE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3240221C1FC42C005FBE3E /* Main.storyboard */; };
+		AD3240271C1FC42C005FBE3E /* ReachOut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD3240251C1FC42C005FBE3E /* ReachOut.xcdatamodeld */; };
+		AD3240291C1FC42C005FBE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3240281C1FC42C005FBE3E /* Assets.xcassets */; };
+		AD32402C1C1FC42C005FBE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD32402A1C1FC42C005FBE3E /* LaunchScreen.storyboard */; };
+		AD3240391C1FC4F1005FBE3E /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3240381C1FC4F1005FBE3E /* DashBoardViewController.swift */; };
+		AD32403D1C1FC518005FBE3E /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32403C1C1FC518005FBE3E /* IndexViewController.swift */; };
+		AD32403F1C1FC534005FBE3E /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32403E1C1FC534005FBE3E /* SurveyViewController.swift */; };
+		AD3240411C1FC544005FBE3E /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3240401C1FC544005FBE3E /* SummaryViewController.swift */; };
+		AD3240431C1FC554005FBE3E /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3240421C1FC554005FBE3E /* SubmitViewController.swift */; };
+		ADEE388D1C32685700F4AA56 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE388C1C32685700F4AA56 /* ForgotPasswordViewController.swift */; };
+		ADF8956F1C312B6200254C1D /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8956E1C312B6200254C1D /* MenuTableViewController.swift */; };
+		ADF895711C314CEE00254C1D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF895701C314CEE00254C1D /* MapViewController.swift */; };
+		ADF895731C314FFB00254C1D /* DashBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF895721C314FFB00254C1D /* DashBoardTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD2A922F1C31008B005665CA /* ReachOut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReachOut-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD2A92301C31008C005665CA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AD2A92311C31008C005665CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AD32401B1C1FC42C005FBE3E /* ReachOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD32401E1C1FC42C005FBE3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD3240201C1FC42C005FBE3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD3240231C1FC42C005FBE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3240261C1FC42C005FBE3E /* ReachOut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReachOut.xcdatamodel; sourceTree = "<group>"; };
+		AD3240281C1FC42C005FBE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD32402B1C1FC42C005FBE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD32402D1C1FC42C005FBE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3240381C1FC4F1005FBE3E /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		AD32403C1C1FC518005FBE3E /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		AD32403E1C1FC534005FBE3E /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		AD3240401C1FC544005FBE3E /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		AD3240421C1FC554005FBE3E /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		ADEE388C1C32685700F4AA56 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		ADF8956E1C312B6200254C1D /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		ADF895701C314CEE00254C1D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ADF895721C314FFB00254C1D /* DashBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3240181C1FC42C005FBE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3240121C1FC42C005FBE3E = {
+			isa = PBXGroup;
+			children = (
+				AD32401D1C1FC42C005FBE3E /* ReachOut */,
+				AD32401C1C1FC42C005FBE3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD32401C1C1FC42C005FBE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD32401B1C1FC42C005FBE3E /* ReachOut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD32401D1C1FC42C005FBE3E /* ReachOut */ = {
+			isa = PBXGroup;
+			children = (
+				AD3240441C1FD8E2005FBE3E /* coreData */,
+				AD3240371C1FC49E005FBE3E /* helper */,
+				AD3240361C1FC481005FBE3E /* service */,
+				AD3240351C1FC47B005FBE3E /* view */,
+				AD3240341C1FC472005FBE3E /* model */,
+				AD3240331C1FC45D005FBE3E /* controller */,
+				AD32401E1C1FC42C005FBE3E /* AppDelegate.swift */,
+				AD3240281C1FC42C005FBE3E /* Assets.xcassets */,
+				AD32402D1C1FC42C005FBE3E /* Info.plist */,
+			);
+			path = ReachOut;
+			sourceTree = "<group>";
+		};
+		AD3240331C1FC45D005FBE3E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8956E1C312B6200254C1D /* MenuTableViewController.swift */,
+				AD3240201C1FC42C005FBE3E /* LoginViewController.swift */,
+				AD3240381C1FC4F1005FBE3E /* DashBoardViewController.swift */,
+				AD32403C1C1FC518005FBE3E /* IndexViewController.swift */,
+				AD32403E1C1FC534005FBE3E /* SurveyViewController.swift */,
+				AD3240401C1FC544005FBE3E /* SummaryViewController.swift */,
+				AD3240421C1FC554005FBE3E /* SubmitViewController.swift */,
+				ADF895701C314CEE00254C1D /* MapViewController.swift */,
+				ADF895721C314FFB00254C1D /* DashBoardTableViewCell.swift */,
+				ADEE388C1C32685700F4AA56 /* ForgotPasswordViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		AD3240341C1FC472005FBE3E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		AD3240351C1FC47B005FBE3E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AD32402A1C1FC42C005FBE3E /* LaunchScreen.storyboard */,
+				AD3240221C1FC42C005FBE3E /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		AD3240361C1FC481005FBE3E /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		AD3240371C1FC49E005FBE3E /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				AD2A92301C31008C005665CA /* SWRevealViewController.h */,
+				AD2A92311C31008C005665CA /* SWRevealViewController.m */,
+				AD2A922F1C31008B005665CA /* ReachOut-Bridging-Header.h */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		AD3240441C1FD8E2005FBE3E /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				AD3240251C1FC42C005FBE3E /* ReachOut.xcdatamodeld */,
+			);
+			name = coreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD32401A1C1FC42C005FBE3E /* ReachOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3240301C1FC42C005FBE3E /* Build configuration list for PBXNativeTarget "ReachOut" */;
+			buildPhases = (
+				AD3240171C1FC42C005FBE3E /* Sources */,
+				AD3240181C1FC42C005FBE3E /* Frameworks */,
+				AD3240191C1FC42C005FBE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachOut;
+			productName = ReachOut;
+			productReference = AD32401B1C1FC42C005FBE3E /* ReachOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3240131C1FC42C005FBE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Fingent Technology Solutions";
+				TargetAttributes = {
+					AD32401A1C1FC42C005FBE3E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AD3240161C1FC42C005FBE3E /* Build configuration list for PBXProject "ReachOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD3240121C1FC42C005FBE3E;
+			productRefGroup = AD32401C1C1FC42C005FBE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD32401A1C1FC42C005FBE3E /* ReachOut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3240191C1FC42C005FBE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32402C1C1FC42C005FBE3E /* LaunchScreen.storyboard in Resources */,
+				AD3240291C1FC42C005FBE3E /* Assets.xcassets in Resources */,
+				AD3240241C1FC42C005FBE3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3240171C1FC42C005FBE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF895711C314CEE00254C1D /* MapViewController.swift in Sources */,
+				AD3240271C1FC42C005FBE3E /* ReachOut.xcdatamodeld in Sources */,
+				ADF895731C314FFB00254C1D /* DashBoardTableViewCell.swift in Sources */,
+				AD32403F1C1FC534005FBE3E /* SurveyViewController.swift in Sources */,
+				ADF8956F1C312B6200254C1D /* MenuTableViewController.swift in Sources */,
+				AD3240211C1FC42C005FBE3E /* LoginViewController.swift in Sources */,
+				AD3240411C1FC544005FBE3E /* SummaryViewController.swift in Sources */,
+				AD3240431C1FC554005FBE3E /* SubmitViewController.swift in Sources */,
+				AD2A92321C31008C005665CA /* SWRevealViewController.m in Sources */,
+				AD32401F1C1FC42C005FBE3E /* AppDelegate.swift in Sources */,
+				ADEE388D1C32685700F4AA56 /* ForgotPasswordViewController.swift in Sources */,
+				AD3240391C1FC4F1005FBE3E /* DashBoardViewController.swift in Sources */,
+				AD32403D1C1FC518005FBE3E /* IndexViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD3240221C1FC42C005FBE3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3240231C1FC42C005FBE3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD32402A1C1FC42C005FBE3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD32402B1C1FC42C005FBE3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD32402E1C1FC42C005FBE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD32402F1C1FC42C005FBE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3240311C1FC42C005FBE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReachOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.ReachOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReachOut/ReachOut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD3240321C1FC42C005FBE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReachOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.ReachOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReachOut/ReachOut-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3240161C1FC42C005FBE3E /* Build configuration list for PBXProject "ReachOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32402E1C1FC42C005FBE3E /* Debug */,
+				AD32402F1C1FC42C005FBE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3240301C1FC42C005FBE3E /* Build configuration list for PBXNativeTarget "ReachOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3240311C1FC42C005FBE3E /* Debug */,
+				AD3240321C1FC42C005FBE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD3240251C1FC42C005FBE3E /* ReachOut.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD3240261C1FC42C005FBE3E /* ReachOut.xcdatamodel */,
+			);
+			currentVersion = AD3240261C1FC42C005FBE3E /* ReachOut.xcdatamodel */;
+			path = ReachOut.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD3240131C1FC42C005FBE3E /* Project object */;
+}
